@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Jurassic 5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhotoToTweet/TakePhotoViewController.fs">
+    <Files>
+      <File FileName="PhotoToTweet/TweetPhotoViewController.fs" Line="12" Column="1" />
+      <File FileName="PhotoToTweet/TakePhotoViewController.fs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

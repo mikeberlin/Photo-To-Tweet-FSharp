@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "PhotoToTweet", "PhotoToTweet\PhotoToTweet.fsproj", "{A91A11DF-BF02-4281-89E0-5A8815DD7387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Release|iPhone.Build.0 = Release|iPhone
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A91A11DF-BF02-4281-89E0-5A8815DD7387}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PhotoToTweet\PhotoToTweet.fsproj
+	EndGlobalSection
+EndGlobal
