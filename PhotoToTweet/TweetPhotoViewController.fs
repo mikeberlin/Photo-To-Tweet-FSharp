@@ -24,6 +24,18 @@ type TweetPhotoViewController (photo: UIImage) =
             button.BackgroundColor <- UIColor.White
             // TODO: Insert sepia color toggle here...
 
+
+            (*
+                CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone"
+                              keysAndValues: kCIInputImageKey, beginImage,
+                    @"inputIntensity", @0.8, nil];
+                CIImage *outputImage = [filter outputImage];
+                 
+                // 4
+                UIImage *newImage = [UIImage imageWithCIImage:outputImage];
+                self.imageView.image = newImage;  
+            *)
+
         button
 
     let tweetPhoto =
@@ -34,6 +46,33 @@ type TweetPhotoViewController (photo: UIImage) =
         button.TouchUpInside.Add <| fun _ ->
             button.BackgroundColor <- UIColor.Orange
             // TODO: Insert built-in iOS tweet logic here...
+
+            (*
+            if (TWTweetComposeViewController.CanSendTweet) then
+                // Add code below
+            } else {
+                // Show a message: Twitter may not be configured in Settings
+            }
+
+            var tweet = new TWTweetComposeViewController();
+            tweet.SetInitialText ("Tweeting from my iOS app");
+
+            tweet.SetCompletionHandler((TWTweetComposeViewControllerResult r) =>{
+                DismissModalViewControllerAnimated(true); // hides the tweet
+                if (r == TWTweetComposeViewControllerResult.Cancelled) {
+                    // user cancelled the tweet
+                } else {
+                    // user sent the tweet (they may have edited it first)
+                }
+            });
+
+            PresentModalViewController(tweet, true);
+
+            tweet.AddUrl (new USUrl("http://xamarin.com"));
+
+            tweet.AddImage (UIImage.FromFile("some_image.png"));
+
+            *)
 
         button
 
